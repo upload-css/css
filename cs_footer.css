@@ -1,0 +1,78 @@
+footer.page-footer {
+  margin: 0;
+}
+@media (max-width: 375px) {
+  footer.page-footer .dhs-foot-mobile {
+    margin: 1rem 0 1.5rem 0 !important;
+  }
+}
+footer.page-footer .dhs-foot-mobile .dark-grey-text .teal.accent-3 {
+  background-color: #ff0000!important;
+  height: 1px;
+}
+footer.page-footer .dhs-foot-mobile .dark-grey-text:first-child h6 {
+  height: 111px;
+}
+@media (max-width: 375px) {
+  footer.page-footer .dhs-foot-mobile .dark-grey-text:first-child h6 {
+    height: 0;
+    margin: 25px;
+  }
+}
+footer.page-footer .dhs-foot-mobile .dark-grey-text:first-child h6 strong {
+  font-size: 25px;
+  position: relative;
+  bottom: 15px;
+}
+footer.page-footer .dhs-foot-mobile .dark-grey-text:first-child h6 img {
+  width: 60px;
+  position: relative;
+  bottom: 23px;
+}
+footer.page-footer .dhs-foot-mobile .dark-grey-text:first-child p {
+  font-size: 14px;
+}
+footer.page-footer .dhs-foot-mobile .dark-grey-text:nth-child(2) .row {
+  padding-bottom: 5px;
+  padding-top: 5px;
+}
+footer.page-footer .dhs-foot-mobile .dark-grey-text:nth-child(2) .row .dhs_days,
+footer.page-footer .dhs-foot-mobile .dark-grey-text:nth-child(2) .row .dhs_time {
+  width: 50%;
+}
+footer.page-footer .dhs-foot-mobile .dark-grey-text:nth-child(2) .row .dhs_days h6,
+footer.page-footer .dhs-foot-mobile .dark-grey-text:nth-child(2) .row .dhs_time h6 {
+  font-size: 14px;
+  margin: 0;
+}
+footer.page-footer .dhs-foot-mobile .dark-grey-text:last-child .dhs_foot_address i.fa,
+footer.page-footer .dhs-foot-mobile .dark-grey-text:last-child .dhs_foot_mail i.fa,
+footer.page-footer .dhs-foot-mobile .dark-grey-text:last-child .dhs_foot_phone i.fa {
+  float: left;
+}
+@media (max-width: 575px) {
+  footer.page-footer .dhs-foot-mobile .dark-grey-text:last-child .dhs_foot_address i.fa,
+  footer.page-footer .dhs-foot-mobile .dark-grey-text:last-child .dhs_foot_mail i.fa,
+  footer.page-footer .dhs-foot-mobile .dark-grey-text:last-child .dhs_foot_phone i.fa {
+    float: none;
+    margin: 0 !important;
+    font-size: 20px;
+  }
+}
+footer.page-footer .dhs-foot-mobile .dark-grey-text:last-child .dhs_foot_address p,
+footer.page-footer .dhs-foot-mobile .dark-grey-text:last-child .dhs_foot_mail p,
+footer.page-footer .dhs-foot-mobile .dark-grey-text:last-child .dhs_foot_phone p {
+  padding: 0 30px;
+  font-size: 14px;
+}
+.page-footer .dhs-foot-mobile .foot-taut p {
+  margin: 5px 0;
+}
+.page-footer .footer-copyright {
+  text-align: center;
+}
+.page-footer .footer-copyright .container-fluid {
+  margin: 10px auto;
+  color: #333;
+  font-weight: 600;
+}

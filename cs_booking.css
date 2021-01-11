@@ -1,0 +1,427 @@
+/* Banner Jumbotron booking */
+.dhs_banner_booking,
+.dhs_banner_cars_details {
+  width: 100%;
+  height: auto;
+}
+.dhs_banner_booking .dhs_title_banner,
+.dhs_banner_cars_details .dhs_title_banner {
+  width: 100%;
+}
+#calendar {
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+/*  ============ Form filter booking service ================= */
+.dhs_booking_serv {
+  width: 100%;
+  padding: 10px 50px 0;
+  background-color: #9a9d9e;
+}
+@media (max-width: 991px) {
+  .dhs_booking_serv .dhs-md {
+    max-width: 100%;
+  }
+}
+@media (max-width: 767px) {
+  .dhs_booking_serv {
+    padding: 10px 30px;
+  }
+}
+.dhs_booking_serv .bookserv-txt {
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 500;
+}
+.dhs_booking_serv .bookserv-txt .bookserv-text-info {
+  font-size: 25px;
+  font-weight: 500;
+  color: #ffffff;
+  text-transform: uppercase;
+  margin: 20px auto;
+}
+.dhs_booking_serv .bookserv-txt .bookserv-text-info small {
+  font-size: 10px;
+  position: absolute;
+  width: 100%;
+  left: 17px;
+  bottom: 20px;
+  text-transform: lowercase;
+}
+@media (max-width: 1199px) and (min-width: 1151px) {
+  .dhs_booking_serv .bookserv-txt .bookserv-text-info {
+    margin: 0px auto;
+  }
+}
+@media (max-width: 1150px) {
+  .dhs_booking_serv .bookserv-txt .bookserv-text-info {
+    font-size: 20px;
+    margin: 16px auto;
+  }
+}
+@media (max-width: 959px) and (min-width: 768px) {
+  .dhs_booking_serv .bookserv-txt .bookserv-text-info {
+    margin: 0px auto;
+  }
+}
+.dhs_booking_serv .bookserv-form {
+  color: #ffffff;
+  font-weight: 400;
+  /* Custom style hover select */
+
+}
+.dhs_booking_serv .bookserv-form .bookserv-date {
+  /*@media(max-width: 1150px){
+        padding: 0 5px;
+      }*/
+
+}
+@media (max-width: 767px) {
+  .dhs_booking_serv .bookserv-form .bookserv-date {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+}
+.dhs_booking_serv .bookserv-form .bookserv-date .bookserv-input-date .md-form {
+  margin-top: 0.2rem;
+  margin-bottom: 0;
+}
+.dhs_booking_serv .bookserv-form .bookserv-date .bookserv-input-date .md-form input {
+  padding: 5px;
+  color: #ffffff;
+  cursor: pointer;
+}
+@media (max-width: 1150px) {
+  .dhs_booking_serv .bookserv-form .bookserv-date .bookserv-input-date .md-form input {
+    font-size: 14px;
+  }
+}
+.dhs_booking_serv .bookserv-form .bookserv-date .bookserv-input-date .md-form ::placeholder {
+  color: #ffffff;
+  font-size: 12px;
+}
+.dhs_booking_serv .bookserv-form .bookserv-date .bookserv-input-date .md-form i.fa {
+  position: absolute;
+  bottom: 12px;
+  right: 0;
+}
+.dhs_booking_serv .bookserv-form .bookserv-time .bookserv-input-time .mdb-select span.caret {
+  color: #ffffff;
+}
+.dhs_booking_serv .bookserv-form .bookserv-time .bookserv-input-time .mdb-select input.select-dropdown {
+  color: #ffffff;
+  font-size: 14px;
+  height: 37px;
+}
+@media (max-width: 1024px) {
+  .dhs_booking_serv .bookserv-form .bookserv-time .bookserv-input-time .mdb-select input.select-dropdown {
+    font-size: 12px;
+  }
+}
+.dhs_booking_serv .bookserv-form .bookserv-type .bookserv-input-type {
+  /*width: 105%;*/
+
+}
+@media (max-width: 767px) {
+  .dhs_booking_serv .bookserv-form .bookserv-type .bookserv-input-type {
+    width: auto;
+  }
+}
+.dhs_booking_serv .bookserv-form .bookserv-type .bookserv-input-type .mdb-select input {
+  text-transform: uppercase;
+}
+.dhs_booking_serv .bookserv-form .bookserv-type .bookserv-input-type .mdb-select span.caret {
+  color: #ffffff;
+}
+.dhs_booking_serv .bookserv-form .bookserv-type .bookserv-input-type .mdb-select input.select-dropdown {
+  color: #ffffff;
+  font-size: 14px;
+  height: 37px;
+}
+@media (max-width: 1024px) {
+  .dhs_booking_serv .bookserv-form .bookserv-type .bookserv-input-type .mdb-select input.select-dropdown {
+    font-size: 12px;
+  }
+}
+.dhs_booking_serv .bookserv-form .bookserv-time .bookserv-input-time .dhs-red .dropdown-content li a,
+.dhs_booking_serv .bookserv-form .bookserv-type .bookserv-input-time .dhs-red .dropdown-content li a,
+.dhs_booking_serv .bookserv-form .bookserv-time .bookserv-input-type .dhs-red .dropdown-content li a,
+.dhs_booking_serv .bookserv-form .bookserv-type .bookserv-input-type .dhs-red .dropdown-content li a,
+.dhs_booking_serv .bookserv-form .bookserv-time .bookserv-input-time .dhs-red .dropdown-content li span:hover,
+.dhs_booking_serv .bookserv-form .bookserv-type .bookserv-input-time .dhs-red .dropdown-content li span:hover,
+.dhs_booking_serv .bookserv-form .bookserv-time .bookserv-input-type .dhs-red .dropdown-content li span:hover,
+.dhs_booking_serv .bookserv-form .bookserv-type .bookserv-input-type .dhs-red .dropdown-content li span:hover,
+.dhs_booking_serv .bookserv-form .bookserv-time .bookserv-input-time .dhs-red .dropdown-content li li:active,
+.dhs_booking_serv .bookserv-form .bookserv-type .bookserv-input-time .dhs-red .dropdown-content li li:active,
+.dhs_booking_serv .bookserv-form .bookserv-time .bookserv-input-type .dhs-red .dropdown-content li li:active,
+.dhs_booking_serv .bookserv-form .bookserv-type .bookserv-input-type .dhs-red .dropdown-content li li:active {
+  background-color: #ff0000;
+}
+.dhs_booking_serv .bookserv-form .bookserv-time .bookserv-input-time .dhs-red .dropdown-content li span,
+.dhs_booking_serv .bookserv-form .bookserv-type .bookserv-input-time .dhs-red .dropdown-content li span,
+.dhs_booking_serv .bookserv-form .bookserv-time .bookserv-input-type .dhs-red .dropdown-content li span,
+.dhs_booking_serv .bookserv-form .bookserv-type .bookserv-input-type .dhs-red .dropdown-content li span {
+  color: #333;
+}
+.dhs_booking_serv .bookserv-submit {
+  margin: 13px auto;
+  text-align: center;
+}
+@media (max-width: 1150px) {
+  .dhs_booking_serv .bookserv-submit {
+    margin: 2px auto;
+  }
+}
+@media (max-width: 767px) {
+  .dhs_booking_serv .bookserv-submit {
+    margin: 10px auto;
+  }
+}
+.dhs_booking_serv .bookserv-submit button.bookserv-btn {
+  background-color: #ff0000 !important;
+  letter-spacing: 1px;
+}
+@media (max-width: 1000px) {
+  .dhs_booking_serv .bookserv-submit button.bookserv-btn {
+    font-size: 12px;
+  }
+}
+/* Style form booking service */
+.dhs_booking_service {
+  width: 100%;
+  margin-bottom: 30px;
+  /* Step Info Booking service */
+
+}
+@media (max-width: 767px) {
+  .dhs_booking_service {
+    height: auto;
+    margin-bottom: 3rem;
+  }
+}
+.dhs_booking_service .step-info {
+  margin-top: 20px;
+}
+.dhs_booking_service .step-info h2,
+.dhs_booking_service .step-info p,
+.dhs_booking_service .step-info ol li {
+  font-family: 'Lato', sans-serif;
+}
+.dhs_booking_service .dhs_alert .dhs_alert-danger {
+  position: relative !important;
+  display: none;
+  left: 1.7rem;
+  top: 0;
+}
+.dhs_booking_service .dhs_alert .dhs_alert-danger .toast-message strong {
+  display: block;
+}
+@media (max-width: 767px) {
+  .dhs_booking_service .booksteps {
+    margin-top: 50px;
+  }
+}
+.dhs_booking_service .steps-form-3 {
+  height: auto;
+  position: relative;
+  top: 40px;
+}
+.dhs_booking_service .steps-form-3 .steps-row-3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+.dhs_booking_service .steps-form-3 .steps-row-3:before {
+  top: 14px;
+  bottom: 0;
+  position: absolute;
+  content: "";
+  width: 2px;
+  height: 100%;
+  background-color: #7283a7;
+}
+.dhs_booking_service .steps-form-3 .steps-row-3 .steps-step-3 {
+  height: 100px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+  position: relative;
+}
+.dhs_booking_service .steps-form-3 .steps-row-3 .steps-step-3:first-child a {
+  left: 3px;
+}
+.dhs_booking_service .steps-form-3 .steps-row-3 .steps-step-3:first-child a i.fa {
+  left: 1px;
+}
+.dhs_booking_service .steps-form-3 .steps-row-3 .steps-step-3:nth-child(2) a i.fa,
+.dhs_booking_service .steps-form-3 .steps-row-3 .steps-step-3:nth-child(3) a i.fa {
+  left: -1px;
+}
+.dhs_booking_service .steps-form-3 .steps-row-3 .steps-step-3.no-height {
+  height: 0;
+}
+.dhs_booking_service .steps-form-3 .steps-row-3 .steps-step-3 p {
+  margin-top: 0.5rem;
+}
+.dhs_booking_service .steps-form-3 .steps-row-3 .steps-step-3 button[disabled] {
+  opacity: 1 !important;
+  filter: alpha(opacity=100) !important;
+}
+.dhs_booking_service .steps-form-3 .steps-row-3 .steps-step-3 .btn-circle-3 {
+  width: 60px;
+  height: 60px;
+  border: 2px solid #59698D;
+  background-color: white !important;
+  color: #59698D !important;
+  border-radius: 50%;
+  padding: 18px 18px 15px 15px;
+  margin-top: -22px;
+}
+.dhs_booking_service .steps-form-3 .steps-row-3 .steps-step-3 .btn-circle-3:hover {
+  border: 2px solid #e11428;
+  color: #e11428 !important;
+  background-color: white !important;
+}
+.dhs_booking_service .steps-form-3 .steps-row-3 .steps-step-3 .btn-circle-3.active {
+  color: #e11428 !important;
+  border: 2px solid #e11428;
+}
+.dhs_booking_service .steps-form-3 .steps-row-3 .steps-step-3 .btn-circle-3.bookserv-disabled {
+  pointer-events: none;
+}
+.dhs_booking_service .steps-form-3 .steps-row-3 .steps-step-3 .btn-circle-3.bookserv-complete {
+  color: #119e08 !important;
+  border: 2px solid #119e08;
+}
+.dhs_booking_service .steps-form-3 .steps-row-3 .steps-step-3 .btn-circle-3 .fa {
+  font-size: 1.7rem;
+}
+.dhs_booking_service .setup-content-3 label {
+  font-size: 1rem;
+}
+.dhs_booking_service .setup-content-3 .dhs_carstype {
+  display: none;
+}
+.dhs_booking_service .steps-form-2 {
+  display: table;
+  width: 100%;
+  position: relative;
+}
+.dhs_booking_service .steps-form-2 .steps-row-2 {
+  display: table-row;
+}
+.dhs_booking_service .steps-form-2 .steps-row-2:before {
+  top: 14px;
+  bottom: 0;
+  position: absolute;
+  content: " ";
+  width: 100%;
+  height: 2px;
+  background-color: #7283a7;
+}
+.dhs_booking_service .steps-form-2 .steps-row-2 .steps-step-2 {
+  display: table-cell;
+  text-align: center;
+  position: relative;
+}
+.dhs_booking_service .steps-form-2 .steps-row-2 .steps-step-2 p {
+  margin-top: 0.5rem;
+}
+.dhs_booking_service .steps-form-2 .steps-row-2 .steps-step-2 button[disabled] {
+  opacity: 1 !important;
+  filter: alpha(opacity=100) !important;
+}
+.dhs_booking_service .steps-form-2 .steps-row-2 .btn-circle-2 {
+  width: 70px;
+  height: 70px;
+  border: 2px solid #59698D;
+  background-color: white !important;
+  color: #59698D !important;
+  border-radius: 50%;
+  padding: 22px 18px 15px 18px;
+  margin-top: -22px;
+}
+.dhs_booking_service .steps-form-2 .steps-row-2 .btn-circle-2:hover {
+  border: 2px solid #e11428;
+  color: #e11428 !important;
+  background-color: white !important;
+}
+.dhs_booking_service .steps-form-2 .steps-row-2 .btn-circle-2.active {
+  color: #e11428 !important;
+  border: 2px solid #e11428;
+}
+.dhs_booking_service .steps-form-2 .steps-row-2 .btn-circle-2.bookserv-disabled {
+  pointer-events: none;
+}
+.dhs_booking_service .steps-form-2 .steps-row-2 .btn-circle-2.bookserv-complete {
+  color: #119e08 !important;
+  border: 2px solid #119e08;
+}
+.dhs_booking_service .steps-form-2 .steps-row-2 .btn-circle-2 .fa {
+  font-size: 1.7rem;
+}
+@media (max-width: 767px) {
+  .dhs_booking_service .steps-form-2 .steps-row-2 .btn-circle-2 .fa.fa-check {
+    margin-top: 4px;
+  }
+  .dhs_booking_service .steps-form-2 .steps-row-2 .btn-circle-2 .fa.fa-car {
+    margin-top: -4px;
+  }
+  .dhs_booking_service .steps-form-2 .steps-row-2 .btn-circle-2 .fa.fa-car.icon-1 {
+    margin-top: 2px;
+  }
+  .dhs_booking_service .steps-form-2 .steps-row-2 .btn-circle-2 .fa.fa-user {
+    margin-top: -4px;
+  }
+}
+.reg_success {
+  padding: 10px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.7);
+  z-index: 9999;
+}
+.reg_success .col-reg-info {
+  background: #fff;
+  height: auto;
+  padding: 30px;
+  margin-top: 10%;
+  -webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+  margin: 12rem auto;
+}
+.reg_success h4 {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-family: 'Lato', sans-serif;
+  /*padding: 15px 0;*/
+  padding: 0;
+}
+.reg_success .txt-reg {
+  font-family: 'Lato', sans-serif;
+}
+
+.dhs_booking_serv .bookserv-form .bookserv-type .bookserv-input-type .mdb-select input.select-dropdown:disabled {
+  border-bottom-color: #ced4da;
+  cursor: no-drop;
+}
+.bookserv-input-time .colorful-select.dhs_time .dropdown-content {
+  overflow-y: scroll;
+  max-height: 200px;
+}

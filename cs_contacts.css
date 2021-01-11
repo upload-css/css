@@ -1,0 +1,93 @@
+.section-body.contact-page .left-form-contact #contact-form .md-form label.error {
+  position: absolute;
+  right: 0;
+  color: #d50000;
+  font-size: 12px;
+  top: 0;
+}
+.section-body.contact-page .left-form-contact #contact-form .md-form label#subject-error {
+  top: -25px;
+  display: none;
+}
+.section-body.contact-page .right-navi-contact .contact-details .media {
+  margin: 0px 0px 30px;
+}
+.section-body.contact-page .right-navi-contact .contact-details .media .media-left {
+  padding-right: 30px;
+}
+.section-body.contact-page .right-navi-contact .contact-details .media .media-left i {
+  background: #ff0000;
+  width: 50px;
+  font-size: 24px;
+  height: 50px;
+  line-height: 50px;
+  border-radius: 10%;
+  color: #ffffff;
+  text-align: center;
+  -webkit-box-shadow: rgba(50, 50, 50, 0.11) 0 5px 2px 0;
+}
+.section-body.contact-page .right-navi-contact .contact-details .media .media-body {
+  display: table-cell;
+  vertical-align: top;
+}
+.section-body.contact-page .right-navi-contact .contact-details .media .media-body h4 {
+  color: #333;
+  letter-spacing: 1px;
+  font-weight: 600;
+  position: relative;
+  padding-bottom: 20px;
+  font-size: 16px;
+  margin-bottom: 20px;
+  margin-top: 0px;
+  text-transform: uppercase;
+  font-style: normal;
+  font-family: Lato, sans-serif;
+}
+.section-body.contact-page .right-navi-contact .contact-details .media .media-body h4:before {
+  content: '';
+  width: 100%;
+  height: 2px;
+  background-color: #d3d3d3;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+.section-body.contact-page .right-navi-contact .contact-details .media .media-body h4:after {
+  background-color: #ff0000;
+  content: '';
+  width: 80px;
+  height: 2px;
+  left: 0;
+  bottom: 0px;
+  position: absolute;
+}
+.section-body.contact-page .right-navi-contact .contact-details .media .media-body p {
+  color: #747474;
+  font-size: 13px;
+  letter-spacing: 0.52px;
+  line-height: 20px;
+  margin-bottom: 5px;
+}
+.contact-map {
+  width: 100%;
+  margin: 30px 0;
+}
+@media(max-width: 768px){
+  .section-body.contact-page .right-navi-contact .contact-details .media .media-left i {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+  }
+}
+@media(max-width: 767px){
+  .section-body.contact-page .container {
+    width: 100%;
+    padding: 0px 45px;
+    max-width: 100%;
+  }
+}
+@media(max-width: 575px){
+  .section-body.contact-page .right-navi-contact {
+    margin-top: 40px;
+  }
+}

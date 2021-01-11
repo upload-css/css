@@ -1,0 +1,256 @@
+@media (max-width: 575px) {
+  .credit-page .content-news .xx-xm {
+    margin: 0!important;
+  }
+}
+@media (max-width: 575px) {
+  .credit-page .content-news .form-credit {
+    width: 100%;
+  }
+}
+.form-credit.asuransi {
+  width: 100%;
+}
+.credit-page .content-news .form-credit form .form-group {
+  width: 100%;
+}
+.credit-page .content-news .form-credit.asuransi form .form-group.sbmt {
+  width: 100%;
+  text-align: center;
+}
+.credit-page .content-news .form-credit.asuransi form .form-group.sbmt p {
+  width: 100%;
+}
+.credit-page .content-news .form-credit form .form-group #valid_otr,
+.credit-page .content-news .form-credit form .form-group #otr,
+.credit-page .content-news .form-credit form .form-group #valid_dp {
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid #bdbdbd;
+  border-radius: 0;
+  outline: 0;
+  height: 2.1rem;
+  box-shadow: none;
+  box-sizing: content-box;
+  -webkit-transition: all .3s;
+  transition: all .3s;
+}
+.credit-page .content-news .form-credit form .form-group label {
+  width: 35%;
+  justify-content: left;
+  font-size: 14px;
+  font-family: 'lato', sans-serif;
+  text-align: left;
+}
+.credit-page .content-news .form-credit form .form-group .xs-xi {
+  width: 50%;
+  margin-bottom: 0;
+  padding: 0;
+  font-size: 14px;
+}
+.credit-page .content-news .form-credit form .form-group .xs-xi input.select-dropdown {
+  margin: 0;
+  height: 2rem;
+  font-size: 14px;
+}
+.credit-page .content-news .form-credit form .form-group .custom-select.xs-xi {
+  display: block !important;
+  padding: 0 10px;
+  cursor: pointer;
+}
+.credit-page .content-news .form-credit form .form-group .custom-select.xs-xi.loading {
+  background-color: #cac9c98c;
+}
+/*.credit-page .content-news .form-credit form .form-group.sbmt #btn-count {
+  margin-left: 16.4rem;
+}*/
+@media (max-width: 814px) {
+  .credit-page .content-news .form-credit form .form-group.sbmt p {
+    width: 100%;
+    text-align: left;
+  }
+  .credit-page .content-news .form-credit form .form-group.sbmt p #btn-count {
+    margin-left: 0;
+  }
+}
+@media (max-width: 575px) {
+  .credit-page .content-news .form-credit form .form-group {
+    margin: 0;
+  }
+  .credit-page .content-news .form-credit form .form-group label {
+    text-align: center;
+    width: 100%;
+  }
+  .credit-page .content-news .form-credit form .form-group .custom-select.xs-xi {
+    width: 100%;
+  }
+  .credit-page .content-news .form-credit form .form-group .xs-xi {
+    width: 100%;
+  }
+}
+@media (max-width: 1120px) {
+  .credit-page .content-news #tables-payment {
+    overflow-x: scroll;
+  }
+}
+.credit-page .content-news #tables-payment table thead {
+  background-color: red;
+  font-family: 'lato', sans-serif;
+  color: #fff;
+  border: 1px solid red;
+}
+.credit-page .content-news #tables-payment table thead tr th {
+  font-weight: 600;
+}
+.credit-page .content-news #tables-payment .info-credit {
+  text-align: left;
+}
+.credit-page .content-news .syrt-info {
+  text-align: left;
+  display: none;
+}
+.asuransi-page .content-news {
+  overflow-x: hidden;
+}
+@media (max-width: 575px) {
+  .asuransi-page .content-news .xx-xm {
+    margin: 0!important;
+  }
+}
+.asuransi-page .content-news .form-asuransi {
+  width: 100%;
+}
+@media (max-width: 575px) {
+  .asuransi-page .content-news .form-asuransi {
+    width: 100%;
+  }
+}
+.asuransi-page .content-news .form-asuransi form .form-group {
+  width: 100%;
+}
+.asuransi-page .content-news .form-asuransi form .form-group label {
+  width: 35%;
+  justify-content: left;
+  font-size: 14px;
+  font-family: 'lato', sans-serif;
+  text-align: left;
+}
+.asuransi-page .content-news .form-asuransi form .form-group .xs-xi {
+  width: 50%;
+  margin-bottom: 0;
+  padding: 0;
+  font-size: 14px;
+}
+.asuransi-page .content-news .form-asuransi form .form-group .xs-xi input.select-dropdown {
+  margin: 0;
+  height: 2rem;
+  font-size: 14px;
+}
+.asuransi-page .content-news .form-asuransi form .form-group .custom-select.xs-xi {
+  display: block !important;
+  padding: 0 10px;
+}
+.asuransi-page .content-news .form-asuransi form .form-group.sbmt #btn-insurance {
+  margin-left: 16.4rem;
+}
+@media (max-width: 814px) {
+  .asuransi-page .content-news .form-asuransi form .form-group.sbmt p {
+    width: 100%;
+    text-align: left;
+  }
+  .asuransi-page .content-news .form-asuransi form .form-group.sbmt p #btn-insurance {
+    margin-left: 0;
+  }
+}
+@media (max-width: 575px) {
+  .asuransi-page .content-news .form-asuransi form .form-group {
+    margin: 0;
+  }
+  .asuransi-page .content-news .form-asuransi form .form-group label {
+    text-align: center;
+    width: 100%;
+  }
+  .asuransi-page .content-news .form-asuransi form .form-group .custom-select.xs-xi {
+    width: 100%;
+  }
+  .asuransi-page .content-news .form-asuransi form .form-group .xs-xi {
+    width: 100%;
+  }
+}
+.asuransi-page .content-news #tables-insurance {
+  overflow-y: hidden;
+  overflow-x: scroll;
+}
+@media (max-width: 1120px) {
+  .asuransi-page .content-news #tables-insurance {
+    overflow-x: scroll;
+  }
+}
+.asuransi-page .content-news #tables-insurance table thead {
+  background-color: red;
+  font-family: 'lato', sans-serif;
+  color: #fff;
+  border: 1px solid red;
+}
+.asuransi-page .content-news #tables-insurance table thead tr th {
+  font-weight: 600;
+}
+.asuransi-page .content-news #tables-insurance .info-asuransi {
+  text-align: left;
+}
+.asuransi-page .content-news .syrt-info {
+  text-align: left;
+  display: none;
+}
+.modal-apply .modal-body #apply-credit {
+  font-family: 'lato', sans-serif;
+}
+.modal-apply .modal-body #apply-credit h3 {
+  text-align: center;
+  font-size: 22px;
+}
+.modal-apply .modal-body #apply-credit .form-group {
+  margin-bottom: 0.5rem;
+}
+.modal-apply .modal-body #apply-credit .form-group input.cdp-xa {
+  margin: 0;
+  border: 1px solid #dddddd;
+  /*height: 1rem;*/
+  font-size: 14px;
+  padding: 8px 10px 8px 10px;
+  width: 95%;
+}
+.modal-apply .modal-body #apply-credit .form-group input.cdp-xi {
+  margin: 0;
+  border: 1px solid #dddddd;
+  /*height: 1rem;*/
+  font-size: 14px;
+}
+.modal-apply .modal-body #apply-credit .form-group input.cdp-xi.mdl-price,
+.modal-apply .modal-body #apply-credit .form-group input.cdp-xi.mdl-dp {
+  padding: 7px 0px 7px 10px;
+}
+.modal-apply .modal-body #apply-credit .form-group .cdp-syrt {
+  color: #333 !important;
+  font-size: 14px;
+  line-height: 15px;
+}
+.modal-apply .modal-body #apply-credit .form-group .custom-select.xs-xi {
+  display: block !important;
+  padding: 0 10px;
+}
+.modal-apply .modal-footer #btn-apply i {
+  position: relative;
+  right: 0;
+  transition: all 0.5s;
+  display: none;
+}
+.modal-apply .modal-footer #btn-apply i.open {
+  display: inline-block;
+  right: 15px;
+}
+.modal-apply .modal-footer #btn-apply i.close {
+  right: 0
+					display: none;
+  opacity: 0;
+}

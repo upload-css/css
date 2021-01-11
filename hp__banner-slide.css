@@ -1,0 +1,189 @@
+.banner-slider {
+  overflow-x: hidden;
+  position: relative;
+}
+.banner-slider #ths_banner_slide .owl-stage-outer {
+  height: auto;
+  box-shadow: 0 5px 5px 0 rgba(0,0,0,.2), 0 6px 20px 0 rgba(0,0,0,.19);
+}
+
+@media (max-width: 991px) and (min-width: 889px) {
+  .banner-slider #ths_banner_slide .owl-stage-outer {
+    height: 422px;
+  }
+}
+@media (max-width: 888px) and (min-width: 780px) {
+  .banner-slider #ths_banner_slide .owl-stage-outer {
+    height: 441px;
+  }
+}
+@media (max-width: 779px) and (min-width: 768px) {
+  .banner-slider #ths_banner_slide .owl-stage-outer {
+    height: 450px;
+  }
+}
+@media (max-width: 767px) and (min-width: 493px) {
+  .banner-slider #ths_banner_slide .owl-stage-outer {
+    height: 540px;
+  }
+}
+@media (max-width: 492px) and (min-width: 450px) {
+  .banner-slider #ths_banner_slide .owl-stage-outer {
+    height: 510px;
+  }
+}
+@media (max-width: 449px) and (min-width: 426px) {
+  .banner-slider #ths_banner_slide .owl-stage-outer {
+    height: 490px;
+  }
+}
+@media (max-width: 425px) {
+  .banner-slider #ths_banner_slide .owl-stage-outer {
+    height: 12.6rem;
+  }
+}
+@media (max-width: 400px) {
+  .banner-slider #ths_banner_slide .owl-stage-outer {
+    height: 12.1rem;
+  }
+}
+@media (max-width: 400px) {
+  .banner-slider #ths_banner_slide .owl-stage-outer {
+    height: 11.905rem;
+  }
+}
+@media (max-width: 395px) {
+  .banner-slider #ths_banner_slide .owl-stage-outer {
+    height: 11.6rem;
+  }
+}
+@media (max-width: 380px) {
+  .banner-slider #ths_banner_slide .owl-stage-outer {
+    height: 11.4rem;
+  }
+}
+@media (max-width: 375px) {
+  .banner-slider #ths_banner_slide .owl-stage-outer {
+    height: 11.2rem;
+  }
+}
+@media (max-width: 360px) {
+  .banner-slider #ths_banner_slide .owl-stage-outer {
+    height: 10.7rem;
+  }
+}
+@media (max-width: 339px) {
+  .banner-slider #ths_banner_slide .owl-stage-outer {
+    height: 10.2rem;
+  }
+}
+@media (max-width: 320px) {
+  .banner-slider #ths_banner_slide .owl-stage-outer {
+    height: 9.5rem;
+  }
+}
+.banner-slider #ths_banner_slide .item {
+  height: 640px;
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+@media (max-width: 1024px) {
+  .banner-slider #ths_banner_slide .item {
+    height: 485px;
+  }
+}
+@media (max-width: 768px) {
+  .banner-slider #ths_banner_slide .item {
+    height: 365px;
+  }
+}
+@media (max-width: 425px) {
+  .banner-slider #ths_banner_slide .item {
+    width: 100%;
+    background-size: contain;
+    background-position: inherit;
+  }
+}
+.banner-slider #ths_banner_slide .item img {
+  display: block;
+  width: 100%;
+  height: 600px;
+}
+@media (max-width: 991px) and (min-width: 889px) {
+  .banner-slider #ths_banner_slide .item img {
+    height: 422px;
+  }
+}
+@media (max-width: 888px) and (min-width: 780px) {
+  .banner-slider #ths_banner_slide .item img {
+    height: 441px;
+  }
+}
+@media (max-width: 779px) and (min-width: 768px) {
+  .banner-slider #ths_banner_slide .item img {
+    height: 450px;
+  }
+}
+@media (max-width: 767px) and (min-width: 493px) {
+  .banner-slider #ths_banner_slide .item img {
+    height: 540px;
+  }
+}
+@media (max-width: 492px) and (min-width: 450px) {
+  .banner-slider #ths_banner_slide .item img {
+    height: 510px;
+  }
+}
+@media (max-width: 449px) and (min-width: 426px) {
+  .banner-slider #ths_banner_slide .item img {
+    height: 490px;
+  }
+}
+@media (max-width: 425px) {
+  .banner-slider #ths_banner_slide .item img {
+    height: 250px;
+  }
+}
+.banner-slider #ths_banner_slide .owl-dots {
+  /*position: absolute;*/
+  /*position: relative;*/
+  bottom: 0;
+  margin: 0;
+  width: 100%;
+}
+@media (max-width: 375px) {
+  .banner-slider #ths_banner_slide .owl-dots {
+    bottom: 20px;
+  }
+}
+.menu-slider {
+  overflow-x: hidden;
+}
+.menu-slider #ths_menu_slide {
+  position: relative;
+}
+@media (max-width: 375px) {
+  .menu-slider #ths_menu_slide .owl-stage-outer {
+    height: 155px;
+  }
+}
+.menu-slider #ths_menu_slide .owl-stage-outer .item {
+  height: 200px;
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+@media (max-width: 375px) {
+  .menu-slider #ths_menu_slide .owl-stage-outer .item {
+    width: 100%;
+    background-size: contain;
+    background-position: inherit;
+    height: 155px;
+  }
+}
+.menu-slider #ths_menu_slide .owl-dots {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+}
